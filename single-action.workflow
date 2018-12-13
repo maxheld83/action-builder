@@ -9,7 +9,7 @@ action "Shell Lint" {
 }
 
 action "Test" {
-  uses = "actions/bin/bats"
+  uses = "actions/bin/bats@master"
   args = "test/*.bats"
 }
 
